@@ -21,6 +21,7 @@
 		24B0DBA318622F9800F88175 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B0DB8518622F9800F88175 /* UIKit.framework */; };
 		24B0DBAB18622F9800F88175 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24B0DBA918622F9800F88175 /* InfoPlist.strings */; };
 		24B0DBAD18622F9800F88175 /* HelloAcelerometroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B0DBAC18622F9800F88175 /* HelloAcelerometroTests.m */; };
+		24B0DBB7186232F000F88175 /* DSMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24B0DBB6186232F000F88175 /* DSMViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		24B0DBA818622F9800F88175 /* HelloAcelerometroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloAcelerometroTests-Info.plist"; sourceTree = "<group>"; };
 		24B0DBAA18622F9800F88175 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		24B0DBAC18622F9800F88175 /* HelloAcelerometroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloAcelerometroTests.m; sourceTree = "<group>"; };
+		24B0DBB6186232F000F88175 /* DSMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSMViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				24B0DB9318622F9800F88175 /* Main.storyboard */,
 				24B0DB9618622F9800F88175 /* DSMViewController.h */,
 				24B0DB9718622F9800F88175 /* DSMViewController.m */,
+				24B0DBB6186232F000F88175 /* DSMViewController.xib */,
 				24B0DB9918622F9800F88175 /* Images.xcassets */,
 				24B0DB8818622F9800F88175 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B0DB9A18622F9800F88175 /* Images.xcassets in Resources */,
+				24B0DBB7186232F000F88175 /* DSMViewController.xib in Resources */,
 				24B0DB8C18622F9800F88175 /* InfoPlist.strings in Resources */,
 				24B0DB9518622F9800F88175 /* Main.storyboard in Resources */,
 			);

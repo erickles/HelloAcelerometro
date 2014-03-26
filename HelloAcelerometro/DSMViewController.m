@@ -13,11 +13,25 @@
 @end
 
 @implementation DSMViewController
+@synthesize labelX,labelY,labelZ,progressX,progressY,progressZ;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //Inicia o acelerometro
+    UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
+    
+    //Tempo para receber updates (em segundos)
+    accelerometer.updateInterval = 0.1;
+    
+    //Delegate
+    accelerometer.delegate = self;
+}
+
+-(void)viewDidUnload{
+    //Para o monitoramento
+    [UIAccelerometer sharedAccelerometer].delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning
